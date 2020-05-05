@@ -27,12 +27,14 @@ public class processingArray {
 
 //Get 10 number inputs from the user, store them in an array and get the average of those 10 numbers.
         int[] numbers = new int[10];
+        double total1=0;
         for (int i = 0; i < 10; i++) {
+
             System.out.print("Please enter a number ");
             numbers[i] = scanner.nextInt();
-            total += number[i];
+            total1 += number[i];
         }
-        System.out.println("The average of the number 1-10  = " + total / numbers.length);
+        System.out.println("The average of the number 1-10  = " + total1 / numbers.length);
 
 
 //5.Create an array to store 3 names, loop through that array to print out the names.
